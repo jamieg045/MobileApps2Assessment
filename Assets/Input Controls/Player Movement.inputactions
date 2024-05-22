@@ -1,0 +1,67 @@
+{
+    "name": "Player Movement",
+    "maps": [
+        {
+            "name": "PlayerMove",
+            "id": "bf4fed7f-2373-4b34-92e2-132f78d259bc",
+            "actions": [
+                {
+                    "name": "PlayerMovement",
+                    "type": "Button",
+                    "id": "b780e575-1d3f-4e2d-9b53-e47db490c8e5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "29898a1e-c2c1-42e1-8dfe-7e76e0d5d93b",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f52f85e2-954a-415c-a5f3-0ffaff7b8e31",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7fd2f68-ac9a-4e24-bd2b-0df020e8ced7",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "45620fb4-ecb4-4fab-8714-dd033866f67b",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
